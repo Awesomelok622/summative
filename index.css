@@ -1,0 +1,164 @@
+#contactus
+{
+  text-align: center;
+  color: black
+}
+#signupbutton
+{
+  text-align: right;
+}
+.sign-up-form
+{
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+  background: #fff;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+  background-image: url(./src/mountain.jpg);
+  background-size: cover;
+  background-position: center;
+  color:blanchedalmond
+}
+.sign-up-form h1
+{
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+.input-box
+{
+    border: radius 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button
+{
+    color:#fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#signup-btn1
+{
+    background-color:  #1c8adb;
+}
+#signup-btn2
+{
+  background-color: #21afde;
+}
+a
+{
+    text-decoration: none;
+}
+hr
+{
+    margin-top: 20px;
+    width: 80%;
+}
+.user-icon
+{
+    width: 10%;
+    margin: 10px;
+    margin-top: -50px;
+}
+.navbar-brand
+{
+    color:chartreuse
+}
+
+table {
+border-collapse: collapse;
+border-radius: 5px;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+overflow: hidden;
+font-family: "Quicksand", sans-serif;
+font-weight: bold;
+font-size: 14px;
+}
+
+th {
+background: #009578;
+color: #ffffff;
+text-align: left;
+}
+
+th,
+td {
+padding: 10px 20px;
+}
+
+tr:nth-child(even) {
+background: #eeeeee;
+}
+
+.bar{
+fill: navy;
+}
+.highlight{
+fill:palevioletred
+}
+/* body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fff;
+  width: 960px;
+  height: 700px;
+  margin-top: 10px;
+} */
+
+#main {
+  float: left;
+  width: 750px;
+}
+
+#sidebar {
+  float: right;
+  width: 100px;
+}
+
+#sequence {
+  width: 600px;
+  height: 70px;
+}
+
+#legend {
+  padding: 10px 0 0 3px;
+}
+
+#sequence text, #legend text {
+  font-weight: 600;
+  fill: #fff;
+}
+
+#chart {
+  position: relative;
+}
+
+#chart path {
+  stroke: #fff;
+}
+
+#explanation {
+  position: absolute;
+  top: 260px;
+  left: 305px;
+  width: 140px;
+  text-align: center;
+  color: #666;
+  z-index: -1;
+}
+
+#percentage {
+  font-size: 2.5em;
+}
+

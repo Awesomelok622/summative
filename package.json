@@ -1,0 +1,32 @@
+{
+  "name": "summative-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "summative.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awesomelok622/summative.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Awesomelok622/summative/issues"
+  },
+  "homepage": "https://github.com/Awesomelok622/summative#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  },
+  "dependencies": {
+    "d3": "^7.2.1",
+    "d3-selection": "^3.0.0",
+    "eslint-config-standard": "^16.0.3"
+  }
+}
